@@ -1,0 +1,72 @@
+{
+    "theme1": {
+        "mode": "light",
+        "colors": {
+            "primary": "#5C6BC0",
+            "secondary": "#FF5722",
+            "success": "#4CAF50",
+            "danger": "#F44336",
+            "warning": "#FFC107",
+            "info": "#00BCD4",
+            "light": "#F5F5F5",
+            "dark": "#263238",
+            "gray": "#9E9E9E",
+            "textDark": "#000000",
+            "textLight": "#FFFFFF",
+            "backgroundDark": "#212121",
+            "backgroundLight": "#FAFAFA"
+        }
+    },
+    "neoBrutalist1": {
+        "mode": "dark",
+        "colors": {
+            "primary": "#FFD700",
+            "secondary": "#000000",
+            "success": "#228B22",
+            "danger": "#B22222",
+            "info": "#1E90FF",
+            "light": "#FFFFFF",
+            "dark": "#333333",
+            "gray": "#808080",
+            "textDark": "#000000",
+            "textLight": "#FFFFFF",
+            "backgroundDark": "#1C1C1C",
+            "backgroundLight": "#F5F5F5"
+        }
+    },
+    "neoBrutalist2": {
+        "mode": "light",
+        "colors": {
+            "primary": "#8B0000",
+            "secondary": "#FFD700",
+            "danger": "#FF4500",
+            "warning": "#DAA520",
+            "info": "#00FFFF",
+            "light": "#F0F8FF",
+            "dark": "#2F4F4F",
+            "gray": "#A9A9A9",
+            "textDark": "#000000",
+            "textLight": "#FFFFFF",
+            "backgroundDark": "#252525",
+            "backgroundLight": "#EFEFEF"
+        }
+    },
+    "neoBrutalist3": {
+        "mode": "dark",
+        "colors": {
+            "primary": "#483D8B",
+            "secondary": "#FF6347",
+            "success": "#6B8E23",
+            "danger": "#DC143C",
+            "warning": "#FFD700",
+            "info": "#40E0D0",
+            "light": "#F5FFFA",
+            "dark": "#696969",
+            "gray": "#BEBEBE",
+            "textDark": "#FFFFFF",
+            "textLight": "#000000",
+            "backgroundDark": "#1A1A1A",
+            "backgroundLight": "#FAFAFA"
+        }
+    }
+}
