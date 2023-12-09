@@ -12,11 +12,14 @@ const common = {
     transition: tokens.transition
 };
 
-export const createTheme = (themeName: keyof typeof themeConfigurations, colorMode: 'light' | 'dark', dynamicBackground?: string): Theme => {
-    const colorScheme: ThemeColors = themeConfigurations[themeName].colors;
+const defaultTheme = 'defaultThemeName'; // Replace with your default theme name
+
+export const createTheme = (themeName: keyof typeof themeConfigurations = defaultTheme, colorMode: 'light' | 'dark' = 'light', dynamicBackground?: string): Theme => {
+    const themeConfig = themeConfigurations[themeName] || themeConfigurations[defaultTheme];
+    const colorScheme: ThemeColors = themeConfig.colors;
 
     return {
-        ...common,
+        ...tokens.common, // Assuming tokens.common is defined and exported from tokens
         colors: {
             ...colorScheme,
             text: colorMode === 'dark' ? colorScheme.textDark : colorScheme.textLight,
