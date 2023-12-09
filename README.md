@@ -33,11 +33,11 @@
 ## ✨ Key Features
 
 - **Dynamic Theme Switching**: Effortlessly toggle between light, dark, or custom color schemes.
+- **Design Token System**: A custom design token system to modularize and automate design systems.
 - **Predefined Themes**: Collection of modern themes for diverse applications.
 - **Custom Theme Creation**: Intuitive API for extending or crafting new themes.
 - **Responsive Design Support**: Ensure consistent styling across devices.
 - **Integration with Styled-Components**: Apply themes directly to styled-components.
-- **Accessibility Compliance**: Adhering to WCAG guidelines for color contrast and readability.
 - **Theming Consistency**: Uniform style application across components.
 
 ---
