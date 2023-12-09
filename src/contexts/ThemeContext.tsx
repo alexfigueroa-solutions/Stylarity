@@ -1,14 +1,12 @@
 import React, { createContext, useEffect, useState } from 'react';
-import { lightTheme, darkTheme, Theme } from '../theme';
 import { ThemeProvider as StyledComponentsThemeProvider } from 'styled-components';
+import { Theme } from '../Theme.types';
 
 export type ThemeContextType = {
     theme: Theme;
     setDynamicBackground: (color: string) => void;
+    setTheme: (theme: Theme) => void;
 }
 
-const defaultSetDynamicBackground = (color: string) => {
-    console.warn("setDynamicBackground function is not yet initialized");
-};
-export const ThemeContext = createContext<ThemeContextType | undefined>({ theme: lightTheme, setDynamicBackground: () => { } });
+export const ThemeContext = createContext<ThemeContextType | undefined>({ theme: {}, setDynamicBackground: () => { }, setTheme: () => { } });
 export const ThemeToggleContext = createContext<((mode: 'light' | 'dark') => void) | undefined>(undefined);

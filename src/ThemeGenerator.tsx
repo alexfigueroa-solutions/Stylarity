@@ -1,7 +1,15 @@
-// theme-generator.js
 import * as tokens from './design-tokens';
 
-export const generateTheme = (themeConfig) => {
+// Define the structure of your theme config
+interface ThemeConfig {
+    colors: {
+        [key: string]: string; // Replace with a more specific type if needed
+    };
+    mode: string; // Replace with a more specific type if needed
+    // Add other properties of themeConfig here
+}
+
+export const generateTheme = (themeConfig: ThemeConfig) => {
     const common = {
         typography: tokens.typography,
         transitions: tokens.transitions,
